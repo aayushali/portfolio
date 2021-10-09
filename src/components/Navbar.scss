@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family:ubuntu, sans-serif;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    font-size: 20px;
+    background-color: #25544B;
+    position: fixed;
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding: 10px 20px;
+    }
+    li , span {
+        display: inline-block;
+        padding: 8px 20px;
+        transition: 100ms;
+        border-radius: 10px;
+        color: #D5EDE8
+        
+    }
+    a {
+        text-decoration: none;
+
+    }
+    a:active {
+        background-color: #DBCEDF;
+      }
+    li:hover {
+        background-color:  #D5EDE8;
+        color:#25544B
+        
+    }
+    span {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+}

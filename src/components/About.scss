@@ -1,0 +1,32 @@
+section.about, section.projects{
+    width: 70%;
+    margin: 0 auto;
+    div {
+        padding: 100px 0px;
+         h1 {
+        text-align: center;
+    }
+    }
+   
+}
+
+section.projects {
+
+    margin: 0 auto;
+    div {
+        padding: 0;
+        
+    }
+    .project-cards {
+        display:grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 4%;
+        .project-card {
+            padding-top:10px;
+            h3 {
+                text-align: center;
+            }
+        }
+    }
+    
+}
